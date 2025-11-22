@@ -1,0 +1,285 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.5)  27 AUG 2025 08:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./firstDocCS.tex
+(firstDocCS.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-05-15>
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/colo
+r.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdft
+ex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolo
+r.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx
+.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.s
+ty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics
+.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/grap
+hics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflsca
+pe.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pdflscape/pdflsca
+pe-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/lscape.s
+ty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings
+.sty
+\lst@mode=\count193
+\lst@gtempboxa=\box51
+\lst@token=\toks17
+\lst@length=\count194
+\lst@currlwidth=\dimen143
+\lst@column=\count195
+\lst@pos=\count196
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
+\lst@newlines=\count197
+\lst@lineno=\count198
+\lst@maxwidth=\dimen146
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.
+sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count199
+\lst@skipnumbers=\count266
+\lst@framebox=\box52
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings
+.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip50
+\bibsep=\skip51
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count267
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
+nd-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box53
+) (firstDocCS.aux)
+\openout1 = `firstDocCS.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-
+pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count269
+\scratchdimen=\dimen147
+\scratchbox=\box54
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen148
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks19
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epst
+opdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf
+-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count275
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+ [1
+
+{/Users/kenneththilakarathna/Library/Application Support/MiKTeX/texmfs/data/fon
+ts/map/pdftex/pdftex.map}] (firstDocCS.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `firstDocCS.toc'.
+
+ [2] (firstDocCS.lof)
+\tf@lof=\write4
+\openout4 = `firstDocCS.lof'.
+
+
+[3] (firstDocCS.lot)
+\tf@lot=\write5
+\openout5 = `firstDocCS.lot'.
+
+ [4] [5] [6]
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1
+.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.
+sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+) (../table.html
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
+.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
+.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/omscmr.fd
+File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+
+[7]) [8] [9
+
+] [10]
+<start.png, id=45, 1541.76pt x 1027.84pt>
+File: start.png Graphic file (type png)
+<use start.png>
+Package pdftex.def Info: start.png  used on input line 137.
+(pdftex.def)             Requested size: 345.0pt x 229.99933pt.
+File: start.png Graphic file (type png)
+<use start.png>
+Package pdftex.def Info: start.png  used on input line 143.
+(pdftex.def)             Requested size: 345.0pt x 229.99933pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11
+
+ <./start.png (PNG copy)>] (firstDocCS.bbl [12] [13] [14] [15]) [16]
+(firstDocCS.aux) ) 
+Here is how much of TeX's memory you used:
+ 4382 strings out of 476411
+ 65541 string characters out of 5786236
+ 1887851 words of memory out of 5000000
+ 24697 multiletter control sequences out of 15000+600000
+ 518006 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,8n,64p,837b,1854s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/kenneththilakarathna/Library/Application Support/MiK
+TeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Library/Applic
+ation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application 
+Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Librar
+y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiK
+TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on firstDocCS.pdf (16 pages, 3222538 bytes).
+PDF statistics:
+ 121 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

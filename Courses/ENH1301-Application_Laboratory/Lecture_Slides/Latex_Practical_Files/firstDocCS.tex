@@ -1,0 +1,172 @@
+\documentclass{article}
+
+\title{My first \LaTeX\space document}
+\author{Kenneth}
+\usepackage{xcolor,graphicx}
+\usepackage{pdflscape,url}
+\usepackage{listings}
+\usepackage{natbib}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+\section{Introduction}
+This is a test document\citep{citekey}
+This is a test document\cite{einstein2023}
+
+\begin{table}[h!]
+%\centering
+\begin{center}
+\begin{tabular}{|l|r|c|r|}
+\hline
+{\bf column one} & {\bf column two} & {\bf column three} & {\bf column four} \\
+\hline
+col1 & col2 & col3 & col4 \\
+col1 & col2 & col3 & col4 \\
+col1 & col2 & col3 & col4 \\
+col1 & col2 & col3 & col4 \\
+col1 & col2 & col3 & col4 \\
+\hline
+\end{tabular}
+\label{tab:first}
+\caption{First table}
+\end{center}
+\end{table}
+We present a 5\textsuperscript{th} scalable $5^2$ dynamic \textsubscript{subscript} analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+
+\newpage
+\begin{verbatim}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple HTML Table</title>
+<style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+</head>
+<body>
+
+<h1>My Simple Table</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>30</td>
+      <td>New York</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>24</td>
+      <td>London</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>35</td>
+      <td>Paris</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
+
+\end{verbatim}
+
+\lstinputlisting[language=html]{../table.html}
+
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+
+%This is a comment
+We present abc \$ \^ \& \_ \{ \} \~ \#  a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+\newpage
+\begin{landscape}
+\section{Background}
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. 
+
+\noindent We use our system\footnote{This is a footnote} to analyze mobile apps’ compliance with the Children’s \\ Online Privacy Protection Act (\textcolor{red}{COPPA}), one of the few stringent privacy 
+\newline
+laws in the U.S. Based on our automated 
+
+\begin{itemize}
+\item [29.3]Item one
+\begin{itemize}
+\item [44.5]Item one
+\item Item two 
+\end{itemize}
+\item [53]Item two 
+\end{itemize}
+
+\begin{enumerate}
+\item One
+\item Two
+\begin{enumerate}
+\item Two-One
+\item Two-Two
+\end{enumerate}
+\item Three
+\end{enumerate}
+
+\noindent analysis of ``5,855" of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+\end{landscape}
+\subsection{Sub Topic}
+We present a scalable dynamic \textbf{analysis} \textit{framework} that allows for the {\bf automatic} evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance Figure \ref{fig:start} with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{start.png}
+\caption{my poor image}
+\label{fig:start}
+\end{figure}
+
+\begin{figure}[h!]
+\includegraphics[width=\linewidth]{start.png}
+\caption{my poor image}
+\label{fig:start2}
+\end{figure}
+
+
+\subsubsection*{Sub Sub Topic}
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy \ref{fig:start} Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+\subsubsection{Sub Sub Topic 2}
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+We present a scalable dynamic analysis framework that allows for the automatic evaluation of the privacy behaviors of Android apps. We use our system to analyze mobile apps’ compliance with the Children’s Online Privacy Protection Act (COPPA), one of the few stringent privacy laws in the U.S. Based on our automated analysis of 5,855 of the most popular free children’s apps, we found that a majority are potentially inviolation of COPPA, mainly due to their use of thirdparty SDKs. While many of these SDKs oﬀer configuration options to respect COPPA by disabling tracking and behavioral advertising, our data suggest that a majority of apps either do not make use of these optionsor incorrectly propagate them across mediation SDKs.
+%\bibliographystyle{ieeetr}
+\bibliographystyle{agsm}
+\bibliography{firstDocCS}
+\end{document}

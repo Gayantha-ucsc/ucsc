@@ -1,0 +1,12 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Author}{2020}{citekey}
+Author  \harvardyearleft 2020\harvardyearright , `Title of webpage',
+  \url{http://www.google.lk}.
+\newblock Accessed: 2022.
+
+\harvarditem{Einstein}{1905}{einstein2023}
+Einstein, A.  \harvardyearleft 1905\harvardyearright , `Zur elektrodynamik
+  bewegter k{\"o}rper', {\em Annalen der Physik} {\bf 322}(10),~891--921.
+
+\end{thebibliography}
