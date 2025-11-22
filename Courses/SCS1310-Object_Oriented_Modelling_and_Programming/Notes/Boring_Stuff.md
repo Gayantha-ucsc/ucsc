@@ -154,6 +154,52 @@ int main(void){
 }
 ```
 
+# Data Types
+
+- Variables are categorizet into differnt types based on how much their memory is allocated and structured.
+- Based on this data types, the compiler allocates memory to the variables.
+
+## Types of data types
+
+1. Primitive data types
+
+- Built in to the compiler/programming language.
+- Can be directly used without any additional steps to use them.
+
+> Integer `int`
+> Character `char`
+> Boolean `bool`
+> Floatint Point Number `float`
+> Double Precision Floating Point Number `double`
+> Void `void`
+> Wide Character `wchar_t`
+
+2. Derived data types
+
+- These data typed are extensions of the primitive types.
+
+> Functions - Code block that can be recalled again.
+> Arrys - Collection of items stored continiously.
+> Pointers - Representation of an address to data.
+> References - An alternative name for an existing variable
+
+3. User defined data types
+
+- These data types can vary based on user need and implementation.
+- Custom data types are made using predefined methods.
+
+> Structures
+> Enums
+> Class
+> Union
+> Typedef
+
+
+
+
+
+
+
 
 
 
