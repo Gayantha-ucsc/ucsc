@@ -1,0 +1,21 @@
+=== GAME LOG STARTED ===
+DEBUG | Got the flag!
+Flag is at [2, 4, 12]
+DEBUG | Got the stairs! Number of stairs is 13
+DEBUG | Got the poles! Number of poles is 4
+DEBUG | Got the walls!
+DEBUG | Got the walls!
+The stair at index 12 could not have an crosssection wall
+GAME | PLayer 'A' is able to capture the flag!
+GAME | PLayer 'B' is able to capture the flag!
+GAME | PLayer 'C' is able to capture the flag!
+GAME | PLayers are able to capture the flag if they are placed in the canteen door!
+
+GAME | === ROUND 1 ===
+
+
+GAME | = PLAYER'S A TURN =
+GAME | Player A movement dice roll is 6
+Player A : Movement dice roll is 6 and direction is N with the position [0,6,12]
+DEBUG | Player A's position at movement to check object [0,5,12], Object is O
+OBJECT | Nothing in the cell [0, 5, 12].
