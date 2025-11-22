@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+    <form action="process.php" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br><br>
+
+        <input type="submit" name="register" value="Register">
+    </form>
+
+    <h2>Search Student</h2>
+    <form action="process.php" method="POST">
+        <label for="search">Enter Username:</label>
+        <input type="text" name="search" required><br><br>
+        <input type="submit" name="find" value="Find Student">
+        <input type="submit" name="delete" value="delete student">
+    </form>
+
+    <form action="process.php" method="post">
+        <input type="submit" value="showDatabase" name="show">
+    </form>
+</body>
+</html>
