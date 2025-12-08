@@ -186,14 +186,13 @@ int main(void){
 3. User defined data types
 
 - These data types can vary based on user need and implementation.
-- Custom data types are made using predefined methods.
+- Custom data types are made using predefined methods and usually organized into complex data types.
 
 > Structures
 > Enums
 > Class
 > Union
 > Typedef
-
 
 
 

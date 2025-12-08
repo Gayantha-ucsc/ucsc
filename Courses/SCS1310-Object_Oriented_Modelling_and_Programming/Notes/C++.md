@@ -114,6 +114,64 @@ int main(void){
 
 
 
+# Structures
+
+- A user defined data-type that group other data types.
+- Can have variables and functions.
+
+```cpp
+struct StructureName{
+    std::string = "";
+    int variable_2 = 0;
+
+    float variable_3 = 0.0f;
+    char variable_4 = '';
+};
+```
+
+- Variables in the structure can be initialized or just kept as it is.
+
+```cpp
+struct StructureName{
+    void function_name(){
+        // Function shit that is in a function
+    }
+
+    void other_function_name();
+};
+
+void StructureName::other_function_name(){
+    // Other shit that is in a function
+}
+```
+
+- A variable of that structure type can be defined by using the below mathod.
+
+```cpp
+StructureName variable_name;
+
+SructureName variable_name = {value1, value2, value3};
+```
+
+- The Values when assigning should be in the order of the way they are defined.
+- The functions don't have any assignment when structure is made.
+
+- To access a member in a structure the dot operator `.` can be used.
+- If accessing a members of a structure's pointer `->` can be used.
+
+```cpp
+struct StructureName{
+public:
+    
+
+}
+
+```
+
+
+
+
+
 
 
 
