@@ -5,6 +5,8 @@ General/Enrolment_Application_Form.pdf
 Examination/*Examination_Admission*
 IEEE/Membership
 Courses/SCS1308-Foundations_of_Algorithms/Other/Group_Segregation
+Orientation_Program/Other/Aptitude_Test_Marks.xlsx
+Orientation_Program/Other/Mentoring_Program-Mentor_List_with_Groups.pdf
 
 # Submissions
 Courses/ENH1301-Application_Laboratory/Practicals/Submissions
@@ -49,5 +51,15 @@ Courses/SCS1312-Operating_System_Concepts/Practicals/AY22/Submissions/
 Courses/SCS1312-Operating_System_Concepts/Practicals/AY21/Submissions/
 
 
+# Useless Shit
+
+Notes/UCSC/Open Notebook.onetoc2
+Notes/UCSC/Random_Notes.one
+
+
+# Executables
+
+*.exe
+*.out
 
 
