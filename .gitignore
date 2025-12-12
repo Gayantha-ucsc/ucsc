@@ -1,19 +1,7 @@
-
-# Personal Files
-General/WIFI_Request_Application-Filled*
-General/Enrolment_Application_Form.pdf
-Examination/*Examination_Admission*
-IEEE/Membership
-Courses/SCS1308-Foundations_of_Algorithms/Other/Group_Segregation
-Orientation_Program/
-
 # Submissions
 Courses/ENH1301-Application_Laboratory/Practicals/Submissions
 Courses/ENH1301-Application_Laboratory/Assignments/Submissions
 
-Courses/ENH1302-Communication_Skills/Assignment/Presentation
-
-Courses/ENH1303-Aesthetic_Studies/AY21/Assignments/Submissions
 
 Courses/SCS1301-Data_Structures_and_Programming_in_C/Practicals/Submissions
 Courses/SCS1301-Data_Structures_and_Programming_in_C/Assignment/Submissions
@@ -51,13 +39,9 @@ Courses/SCS1312-Operating_System_Concepts/Practicals/AY21/Submissions/
 
 
 # Useless Shit
-
 Notes/UCSC/Open Notebook.onetoc2
-Notes/UCSC/Random_Notes.one
-
 
 # Executables
-
 *.exe
 *.out
 
