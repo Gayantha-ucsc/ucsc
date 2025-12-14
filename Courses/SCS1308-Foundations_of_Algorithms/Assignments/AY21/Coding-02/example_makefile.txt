@@ -1,0 +1,16 @@
+# Define your compiler
+CC = gcc
+
+# Define any compile-time flags
+CFLAGS = -Wall -Wextra -g
+
+# The first rule is the default target:
+all: bst
+
+# "bst" is our final executable
+bst: main.c bst.c
+	$(CC) $(CFLAGS) -o bst main.c bst.c
+
+# "clean" is a common target to remove generated files
+clean:
+	rm -f bst *.o
